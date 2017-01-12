@@ -3,6 +3,7 @@ const babelDevDependents = require('dependent-packages').directDevDependents('ba
 // all-the-package-names array is sorted by number of dependents
 const names = require('all-the-package-names')
   .filter(name => babelDevDependents.includes(name))
+  .map(name => `1. ${name} [npm](http://npm.im/${name}) [ghub](http://ghub.io/${name})`)
 
 process.stderr.write(`${names.length} packages devDepend on babel`)
-process.stdout.write(JSON.stringify(names, null, 2))
+process.stdout.write(names.join('\n'))

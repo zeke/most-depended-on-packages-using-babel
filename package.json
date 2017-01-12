@@ -8,6 +8,6 @@
     "dependent-packages": "^2.2.2"
   },
   "scripts": {
-    "start": "node index.js > results.json"
+    "start": "node index.js > results.md"
   }
 }
