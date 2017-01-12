@@ -1,0 +1,13 @@
+{
+  "name": "most-depended-on-packages-using-babel",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "all-the-package-names": "^1.3101.0",
+    "dependent-packages": "^2.2.2"
+  },
+  "scripts": {
+    "start": "node index.js > results.json"
+  }
+}
