@@ -2,7 +2,7 @@
 
 > A quick thing for @wmhilton
 
-See [results.md][results.md].
+See [results.md](results.md)
 
 ## Dependencies
 
